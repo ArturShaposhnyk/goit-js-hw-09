@@ -16,3 +16,35 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.timer {
+  display: flex;
+  margin-top: 20px;
+  gap: 10px;
+  font-family: Helvetica, sans-serif;
+  width: 500px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  text-align: center;
+  border-radius: 15%;
+  line-height: 150%;
+  background-color: #212121;
+  color: #fafafa;
+  width: 10%;
+}
+
+.value {
+  font-weight: bold;
+  font-size: 200%;
+  padding: 2px;
+}
+
+.label {
+  font-weight: bold;
+  font-size: 60%;
+  padding: 2px;
+}
